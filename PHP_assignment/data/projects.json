@@ -32,7 +32,7 @@
     },
     {
         "id": 3,
-        "status": "approved",
+        "status": "closed",
         "title": "Make Japan great again",
         "description": "This is an excerpt from my 81-page anthropology thesis titled \u201c\u2018Make Japan Great Again\u2019: An Emerging Class of Transnational Youths and Their Yaritaikoto for \u2018Social Good\u2019.\u201d\r\n\r\n<Table of Contents>\r\nAbstract\r\n\u201cWhat Do You Want to Do for \u2018Social Good\u2019?\u201d (Introduction)\r\nCollaborative Methodology (Research Methods)\r\nBrief History of Japanese Political Economy (Historical Background)\r\nThe Extremely Vague Approach to \u201cSocial Good\u201d (Data Analysis #1)\r\nThe Disparity between the Foundation and Scholars (Data Analysis #2)\r\n\u201cWhat is Your Version of \u2018Social Good\u2019?\u201d (Conclusion)\r\nRecommendations to the Yanai Community (Appendix)\r\nBibliography",
         "category": "Local small project",
@@ -40,11 +40,12 @@
         "image_url": null,
         "owner_id": 4,
         "submitted_at": "2026-01-04 21:23:57",
-        "approved_at": "2026-01-04 21:25:07"
+        "approved_at": "2026-01-04 21:25:07",
+        "closed_at": "2026-01-28 10:26:37"
     },
     {
         "id": 4,
-        "status": "approved",
+        "status": "closed",
         "title": "super cool project",
         "description": "A neural network (NN) is a brain-inspired machine learning model with interconnected nodes (neurons) in layers that learn patterns from data to perform complex tasks like image recognition or language translation, adapting and improving through weighted connections that adjust as they're trained, forming the foundation of modern AI.",
         "category": "Equal opportunity Budapest",
@@ -52,11 +53,12 @@
         "image_url": null,
         "owner_id": 1,
         "submitted_at": "2026-01-04 21:40:53",
-        "approved_at": "2026-01-04 21:41:27"
+        "approved_at": "2026-01-04 21:41:27",
+        "closed_at": "2026-01-28 10:26:37"
     },
     {
         "id": 5,
-        "status": "approved",
+        "status": "closed",
         "title": "My really cool project",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "category": "Local large project",
@@ -64,11 +66,12 @@
         "image_url": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcTc9APxkj0xClmrU3PpMZglHQkx446nQPG6lA&s",
         "owner_id": 1,
         "submitted_at": "2026-01-04 22:14:21",
-        "approved_at": "2026-01-04 22:14:34"
+        "approved_at": "2026-01-04 22:14:34",
+        "closed_at": "2026-01-28 10:26:37"
     },
     {
         "id": 6,
-        "status": "approved",
+        "status": "closed",
         "title": "CodeRover Hovercraft \u2014 Build It. Code It. Race It.",
         "description": "Since 2022, we\u2019ve been on a mission to make STEM and Robotics fun and accessible through our CodeRover series \u2014 a line of build-it-yourself robots made from laser-cut parts and powered by smart electronics. Each project pushed the boundaries of what DIY robotics can be. But this time, we\u2019re taking things to a whole new level. Lol!",
         "category": "Local large project",
@@ -94,6 +97,19 @@
                 },
                 "edited_at": "2026-01-04 22:40:51"
             }
-        ]
+        ],
+        "closed_at": "2026-01-28 10:26:37"
+    },
+    {
+        "id": 7,
+        "status": "approved",
+        "title": "New Budapest metro line",
+        "description": "We have a plan to build M5. It will be the longest metro line stretching for 23 km. It will start at the east edge of Pest and go to South edge of Buda",
+        "category": "Local large project",
+        "postal_code": "1084",
+        "image_url": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/0a\/Ginza-line_Series01.jpg",
+        "owner_id": 1,
+        "submitted_at": "2026-01-28 10:28:52",
+        "approved_at": "2026-01-28 10:29:09"
     }
 ]
