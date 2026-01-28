@@ -1,93 +1,60 @@
-🏙️ Budapest Community Budget
+<p align="center">
+  <img src="assets/logo.jpg" alt="Budapest Community Budget icon" width="256" />
+</p>
 
-📌 Project Overview
+# 🏙️ Budapest Community Budget
 
-Budapest Community Budget is a web application that enables residents to actively participate in the city’s decision-making process. Users can submit project proposals and vote on ideas they support, helping shape community development through a transparent and structured system.
+## Overview
 
-The application handles user authentication, project lifecycle management, and a rule-based voting mechanism with clearly defined constraints.
+**Budapest Community Budget** is a web application that allows residents to participate in the city’s decision-making process by submitting project proposals and voting on ideas they support.
 
-🎓 Course: Web Programming (PHP Assignment)
-🛠️ Technologies: Vanilla PHP (no frameworks), HTML, CSS, JavaScript (AJAX / Fetch API), JSON-based data storage
+The system focuses on **transparency**, **fair voting rules**, and **clear project lifecycle management**, enabling community-driven development through a structured digital platform.
 
-⸻
+**Course:** Web Programming (PHP Assignment)  
+**Tech stack:** Vanilla PHP, HTML, CSS, JavaScript (AJAX / Fetch API), JSON-based data storage
 
-✨ Features
+---
 
-👥 1. General & Guest Access
-•	Project Listing – View all approved and published projects
-•	Filtering – Browse projects by category (e.g., Green Budapest, Local Small Project)
-•	Project Details – View full descriptions and live vote counts
-•	Authentication – User registration and login system
+## Features
 
-⸻
+### 👀 Public & Guest Access
+- Browse all approved and published projects
+- Filter projects by category (e.g. Green Budapest, Local Small Project)
+- View detailed project descriptions and live vote counts
+- User registration and login
 
-👤 2. Authenticated Users
-•	Project Submission
-•	Submit new proposals with validation:
-•	Title
-•	Description
-•	Category
-•	Image
-•	Valid district postal code
-•	Project Management
-•	Track personal project status:
-•	Pending
-•	Approved
-•	Rejected
-•	Rework requested
-•	Voting System
-•	Vote on published projects
-•	Constraints:
-•	Maximum 3 votes per category
-•	Maximum 1 vote per project
-•	Vote Withdrawal
-•	Votes can be withdrawn within 2 weeks of project publication
-•	Voting Period
-•	Voting is disabled for projects published more than 2 weeks ago
+---
 
-⸻
+### 👤 Authenticated Users
+- Submit new project proposals with validation:
+  - Title
+  - Description
+  - Category
+  - Image upload
+  - Valid district postal code
+- Track personal project status:
+  - Pending
+  - Approved
+  - Rejected
+  - Rework requested
+- Vote on published projects with strict rules:
+  - Maximum **3 votes per category**
+  - Maximum **1 vote per project**
+  - Votes can be withdrawn within **2 weeks**
+  - Voting closes **2 weeks after project publication**
 
-🛡️ 3. Administrator
-•	Moderation Dashboard
-•	Review submitted projects
-•	Actions
-•	Approve – Publish project for voting
-•	Reject – Deny project submission
-•	Rework – Request changes with feedback
-•	Statistics
-•	View the most popular projects
-•	See top projects per category
+---
 
-⸻
+### 🛡️ Administrator
+- Moderate submitted projects
+- Approve, reject, or request rework with feedback
+- View statistics:
+  - Most popular projects
+  - Top projects per category
 
-⚙️ Installation & Setup
+---
 
-1️⃣ Clone the repository
-
-git clone https://github.com/your-username/budapest-community-budget.git
-
-2️⃣ Navigate to the project directory
-
-cd budapest-community-budget
-
-3️⃣ Start the local PHP server
-
-php -S localhost:8000
-
-4️⃣ Access the application
-
-Open your browser and go to:
-👉 http://localhost:8000
-
-⸻
-
-🔐 Default Admin Credentials
-•	Username: admin
-•	Password: admin
-
-⸻
-
-📚 Notes
-•	No PHP frameworks are used — the project is built entirely with vanilla PHP.
-•	Data persistence is handled via JSON files, focusing on logic and structure rather than database complexity.
-•	The project emphasizes validation, business rules, and clear role separation.
+## Resources
+![Homepage Screenshot](./assets/Homepage.png)
+![Project description Screenshot](./assets/projectScreen.png)
+[![Watch the video](./assets/logo.jpg)](https://youtu.be/2b-O_0R6uzQ)
